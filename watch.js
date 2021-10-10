@@ -1,5 +1,6 @@
 function render(){
-
+    alert("🧯Example Anime Name : death note");
+    alert("🧯Example Chapter : 1");
     var link=prompt("⚡Anime Name");
     var link = link.replace(` `, "-");
     var name = link.toLowerCase();
@@ -8,6 +9,7 @@ function render(){
     }
     var ch = prompt("⚡Enter Episode Number");
     alert("We Scrape Data from GogoAnime.Pe");
+    alert("🐱‍💻Made By Healer");
     
     document.getElementById("name").innerHTML = `Displaying ${name} Episode ${ch}`
   
